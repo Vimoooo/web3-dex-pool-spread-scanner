@@ -9,7 +9,7 @@ TOKEN_B = os.getenv("TOKEN_B")
 
 FACTORY_ABI = [
     {
-        "type": "",
+        "type": "function",
         "name": "getPair",
         "stateMutability": "view",
         "inputs": [
